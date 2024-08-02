@@ -50,5 +50,14 @@ We store environment variables in the following places:
 ~~**rich text editor**: tiptap (with mantine)? lexical? we might not need~~ 
 ~~**state management**: may not need, add when need~~
 
+# Docker
+- [x] Dockerfile
+- [x] .dockerignore
+
+# Docker setup
+```
+docker build . -t booking-fe
+docker run -p 3000:3000 booking-fe
+```
 
 and more?

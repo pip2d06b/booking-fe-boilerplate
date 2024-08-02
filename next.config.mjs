@@ -16,6 +16,7 @@ const withNextIntl = createNextIntlPlugin('./src/libs/i18n.ts');
 const config = {
   // Use CDN in production for assets
   assetPrefix: process.env.NODE_ENV === 'production' ? 'https://example.com' : undefined,
+  output: 'standalone',
 };
 
 export default withNextIntl(config);
